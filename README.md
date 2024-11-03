@@ -1,32 +1,41 @@
-# Chat App
+# GDG Yonsei ML Workshop: 본인 만의 Chatbot App 만들기
 
-A user-friendly, highly customizable Python web app designed to demonstrate LLMs.
+Reflex + Groq API를 활용하여 본인만의 챗봇을 만들어봅시다.
 
 # Getting Started
 
-You'll need a valid GROQ API key.
+GROQ API key가 필요해요! https://groq.com/ 에서 api key를 만듭시다.
 
-### 🧬 1. Clone the Repo
+### 1. Repo 클론하기.
 
 ```bash
-git clone 
+https://github.com/jeffrobot/GDG_Yonsei_MLWS.git
 ```
 
-### 📦 2. Install Reflex
+### 2. 환경 생성하기
 
-To get started with Reflex, you'll need:
 
-- Python 3.7+
-- Node.js 12.22.0+ \(No JavaScript knowledge required!\)
-- Pip dependencies: `reflex`, `openai`
+```bash
+python -m venv gdgenv
+```
 
-Install `pip` dependencies with the provided `requirements.txt`:
+for WindowOS
+```bash
+gdgenv\Scripts\activate
+```
+
+For MacOS
+```bash
+source gdgenv/bin/activate
+```
+
+### 3. 필요한 Package 가져오기
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🚀 3. Run the application
+### 3. APP Run하기
 
 Initialize and run the app:
 
@@ -34,7 +43,7 @@ Initialize and run the app:
 reflex init
 reflex run
 ```
-
+<!-- 
 # Features
 
 - 100% Python-based, including the UI, using Reflex
@@ -53,4 +62,4 @@ If you'd like to contribute, please do the following:
 
 # License
 
-The following repo is licensed under the MIT License.
+The following repo is licensed under the MIT License. -->
