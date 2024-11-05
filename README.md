@@ -9,7 +9,7 @@ GROQ API key가 필요해요! https://groq.com/ 에서 api key를 만듭시다.
 ### 1. Repo 클론하기.
 
 ```bash
-https://github.com/jeffrobot/GDG_Yonsei_MLWS.git
+git clone https://github.com/jeffrobot/GDG_Yonsei_MLWS.git
 ```
 
 ### 2. 환경 생성하기
